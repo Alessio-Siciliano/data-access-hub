@@ -3,7 +3,7 @@ import '../index.css';
 import { useTranslation } from 'react-i18next';
 
 const Homepage = () => {
-    const { t, _ } = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <main className="container mx-auto py-10">
